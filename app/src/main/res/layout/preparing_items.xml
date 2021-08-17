@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="395dp"
+    android:layout_height="80dp"
+    android:layout_margin="16dp"
+    android:background="@drawable/layout_bg">
+
+
+    <ImageView
+        android:id="@+id/pHat"
+        android:layout_width="32dp"
+        android:layout_height="32dp"
+        android:layout_marginStart="13dp"
+        android:layout_marginBottom="23dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="9dp"
+        android:fontFamily="@font/helveticaneuelt75bold"
+        android:text="#19"
+        android:textSize="20sp"
+        app:layout_constraintStart_toEndOf="@+id/pHat"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:layout_width="174dp"
+        android:layout_height="37dp"
+        android:layout_marginStart="15dp"
+        android:fontFamily="@font/helveticaneuelt55roman"
+        android:text="ვის ბურგერი საბურთალო"
+        app:layout_constraintStart_toEndOf="@+id/pHat"
+
+        app:layout_constraintTop_toBottomOf="@id/textView" />
+
+
+    <ImageView
+        android:id="@+id/preparing"
+        android:layout_width="17dp"
+        android:layout_height="12dp"
+        android:layout_marginStart="103dp"
+        android:layout_marginBottom="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/textView" />
+
+    <ImageView
+        android:id="@+id/scooter"
+        android:layout_width="17.42dp"
+        android:layout_height="11.9dp"
+        android:layout_marginStart="103dp"
+        android:layout_marginBottom="40dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/textView" />
+
+    <TextView
+        android:id="@+id/pAmount"
+        android:layout_width="16dp"
+        android:layout_height="20dp"
+        android:layout_marginStart="6dp"
+        android:layout_marginBottom="17dp"
+        android:text="x4"
+        android:textSize="14sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@id/preparing" />
+
+    <TextView
+        android:layout_width="48dp"
+        android:layout_height="21dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="25dp"
+        android:fontFamily="@font/helveticaneuelt75bold"
+        android:text="14min"
+        app:layout_constraintStart_toEndOf="@id/scooter"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/smallLine"
+        android:layout_width="1dp"
+        android:layout_height="14dp"
+        android:layout_marginStart="9dp"
+        android:layout_marginBottom="19dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@id/pAmount" />
+
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="36dp"
+        android:layout_height="19dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginBottom="17dp"
+        android:text="56.30"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@id/smallLine" />
+
+    <TextView
+        android:layout_width="5dp"
+        android:layout_height="20dp"
+        android:layout_marginStart="3dp"
+        android:layout_marginBottom="14dp"
+        android:text="j"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@id/text" />
+
+    <ImageView
+        android:id="@+id/circle"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_marginStart="260dp"
+        android:layout_marginBottom="4dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@id/pHat" />
+
+    <TextView
+
+        android:layout_width="43dp"
+        android:layout_height="23dp"
+        android:layout_marginStart="17dp"
+        android:layout_marginBottom="22dp"
+        android:fontFamily=""
+        android:text="03:42"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toBottomOf="@id/circle"
+        app:layout_constraintStart_toStartOf="@id/circle" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
